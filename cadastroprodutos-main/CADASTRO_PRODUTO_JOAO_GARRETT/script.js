@@ -43,6 +43,9 @@ function adicionarNaTabela(produto){
         <td>${produto.nome}</td>
          <td>${produto.preco.toFixed(2)}</td>
           <td>${produto.quantidade}</td>
+           <td>
+                 <button></button>
+           </td>
     `;
 }
 
